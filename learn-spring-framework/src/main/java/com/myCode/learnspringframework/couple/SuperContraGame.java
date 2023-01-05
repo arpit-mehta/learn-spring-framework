@@ -1,14 +1,14 @@
-package com.myCode.learnspringframework.game;
+package com.myCode.learnspringframework.couple;
 
 public class SuperContraGame {
     public void up(){
-        System.out.println("Up");
+        System.out.println("Jump");
     }
     public void down(){
-        System.out.println("Sit Down");
+        System.out.println("lean");
     }
     public void left(){
-        System.out.println("Go Back");
+        System.out.println("Dodge");
     }
     public void right(){
         System.out.println("Shoot");
