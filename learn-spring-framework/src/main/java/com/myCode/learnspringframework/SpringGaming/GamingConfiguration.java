@@ -12,6 +12,7 @@ public class GamingConfiguration {
     @Bean
     public GamingConsole game(){
         var game = new PacManGame();
+
         return game;
     }
 
