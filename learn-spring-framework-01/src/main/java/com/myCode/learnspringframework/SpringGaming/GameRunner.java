@@ -5,13 +5,10 @@ import com.myCode.learnspringframework.Gaming.GamingConsole;
 
 public class GameRunner {
 
-    //instead of specific games we make use of GamingConsole
-    //private MarioGame game;
-    //private SuperContraGame game;
-
-    private com.myCode.learnspringframework.Gaming.GamingConsole game;
+    private GamingConsole game;
 
     public GameRunner(GamingConsole game) {
+
         this.game=game;
     }
 
