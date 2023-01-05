@@ -1,6 +1,8 @@
-package com.myCode.learnspringframework.couple;
+package com.myCode.learnspringframework.SpringGaming;
 
-public class PacManGame implements GamingConsole{
+import com.myCode.learnspringframework.Gaming.GamingConsole;
+
+public class PacManGame implements GamingConsole {
     public void up(){
         System.out.println("Jump");
     }

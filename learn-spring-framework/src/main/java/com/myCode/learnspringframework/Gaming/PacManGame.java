@@ -1,11 +1,11 @@
-package com.myCode.learnspringframework.couple;
+package com.myCode.learnspringframework.Gaming;
 
-public class MarioGame implements GamingConsole{
+public class PacManGame implements GamingConsole{
     public void up(){
         System.out.println("Jump");
     }
     public void down(){
-        System.out.println("Go into hole");
+        System.out.println("eat down");
     }
     public void left(){
         System.out.println("Go back");

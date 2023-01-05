@@ -1,4 +1,4 @@
-package com.myCode.learnspringframework.couple;
+package com.myCode.learnspringframework.Gaming;
 
 public class SuperContraGame implements GamingConsole{
     public void up(){

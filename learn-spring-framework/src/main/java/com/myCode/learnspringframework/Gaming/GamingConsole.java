@@ -1,4 +1,4 @@
-package com.myCode.learnspringframework.couple;
+package com.myCode.learnspringframework.Gaming;
 
 //using this interface we do not make any changes to our AppGamingBasicJava we just make our game implement
 //this interface

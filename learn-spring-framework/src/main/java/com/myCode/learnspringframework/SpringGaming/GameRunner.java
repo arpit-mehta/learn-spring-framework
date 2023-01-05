@@ -1,5 +1,7 @@
-package com.myCode.learnspringframework.couple;
+package com.myCode.learnspringframework.SpringGaming;
 
+
+import com.myCode.learnspringframework.Gaming.GamingConsole;
 
 public class GameRunner {
 
@@ -7,7 +9,7 @@ public class GameRunner {
     //private MarioGame game;
     //private SuperContraGame game;
 
-    private GamingConsole game;
+    private com.myCode.learnspringframework.Gaming.GamingConsole game;
 
     public GameRunner(GamingConsole game) {
         this.game=game;
