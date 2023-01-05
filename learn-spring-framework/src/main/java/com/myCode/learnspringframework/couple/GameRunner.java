@@ -1,11 +1,15 @@
 package com.myCode.learnspringframework.couple;
 
+
 public class GameRunner {
 
-    //MarioGame game;
-    private SuperContraGame game;
+    //instead of specific games we make use of GamingConsole
+    //private MarioGame game;
+    //private SuperContraGame game;
 
-    public GameRunner(SuperContraGame game) {
+    private GamingConsole game;
+
+    public GameRunner(GamingConsole game) {
         this.game=game;
     }
 
